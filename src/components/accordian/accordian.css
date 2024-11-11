@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.acco-btn{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.564);
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accordian{
+    width: 500px;
+}
+
+.acco-item{
+    text-align: left;
+    background-color: rgba(105, 54, 54, 0.69);
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.acco-title{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acco-content{
+    color: #ffffff;
+    height: auto;
+}
