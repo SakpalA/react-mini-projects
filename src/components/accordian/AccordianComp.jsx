@@ -22,6 +22,12 @@ const AccordianComp = () => {
         }
 
         setMultiple(cpyMultiple);
+
+        // setMultiple((prevMultiple) =>
+        //     prevMultiple.includes(getCurrentId)
+        //         ? prevMultiple.filter((item) => item !== getCurrentId)
+        //         : [...prevMultiple, getCurrentId]
+        // );
     }
 
     console.log(selected, multiple);
